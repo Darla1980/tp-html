@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body>
+    <h4>Registro</h4>
+    <form method="get">
+        <div>
+            <label for="name">Nombre y apellido</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="userName">Nombre de usuario</label>
+            <input type="text" name="userName" id="userName">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="age">Fecha de nacimiento</label>
+            <input type="date" name="age" id="age">
+        </div>
+        <div>
+            <label for="recidence">Domicilio</label>
+            <input type="text" name="recidence" id="recidence">
+        </div>
+        <div>
+            <h4>Perfil de su usuario</h4>
+            <label for="buyer">Comprador</label>
+            <input type="radio" name="buyer" id="buyer" value="buyer">
+            <label for="seller">Vendedor</label>
+            <input type="radio" name="seller" id="seller" value="seller">
+        </div>
+        <div>
+            <h4>Categorías de interés</h4>
+            <label for="electro">Electro</label>
+            <input type="checkbox" name="electro" id="electro" value="electro">
+            <label for="fashion">Moda</label>
+            <input type="checkbox" name="fashion" id="fashion" value="fashion">
+            <label for="home">Hogar</label>
+            <input type="checkbox" name="home" id="home" value="checkbox">
+            <label for="toyStore">Juguetería</label>
+            <input type="checkbox" name="toyStore" id="toyStore" value="toyStore">
+            <label for="healthy">Vida sana</label>
+            <input type="checkbox" name="healthy" id="healthy" value="healthy">
+        </div>
+        <div>
+            <h4>Usuario</h4>
+            <label for="userPhoto">Foto de usuario</label>
+            <input type="file" name="userPhoto" accept="image/png, image/jpeg" id="userPhoto">
+        </div>
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" required><br>
+            <label for="confirmPassword">Confirmar contraseña</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required>
+        </div>
+        <div>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>
